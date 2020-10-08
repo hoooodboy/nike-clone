@@ -1,0 +1,274 @@
+body {
+    font-family: 'Noto Sans', "맑은 고딕", sans-serif;
+}
+
+body a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
+.top-menu {
+    display: flex;
+    height: 38px;
+}
+
+.top-logo {
+    display: flex;
+
+}
+.top-logo a{
+    padding: 12px 35px;
+    font-size: 12px;
+    white-space: nowrap;
+    border-right: 1px solid darkgray;
+    color: darkgray;
+    flex-wrap: nowrap;
+}
+
+.top-logo a .jumpmen{
+    width: 16px;
+    height: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+.top-logo img.converse{
+    opacity: 0.25;
+    width: 70px;
+    height: 9px;
+    margin: auto 0px;
+    margin-top: 4px;
+}
+.right-header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-header div{
+    display: flex;
+    display: block;
+    padding: 5px 8px;
+}
+.right-header a{
+    color: darkgray;
+    font-size: 12px;
+    font-weight: 300;
+}
+.top-logo >a:hover{
+    color: #000;
+}
+.quest {
+    display: flex;
+    border: 1px solid darkgray;
+    height: 70px;
+    letter-spacing: -0.5px;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.m-menu {
+    width: 100%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 70px;
+}
+.m-menu a{
+    margin-right: 40px;
+    font-size: 14px;
+    font: bold;
+}
+.search {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.search input {
+    height: 40px;
+    width: 224px;
+    border: 1px solid darkgray;
+    border-radius: 2px;
+}
+.logo {
+    background-image: url(https://i.pinimg.com/564x/20/60/2d/20602d43cc993811e5a6bd1886af4f33.jpg);
+    background-size: contain;
+    height: 25px;
+    width: 100px;
+    text-indent: -9999px;
+    margin: auto 0px;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+}
+
+.logo a {
+
+
+}
+
+video {
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+}
+.jb-box { 
+    margin: 0 3rem;
+}
+.card-text {
+    margin:30px;
+    height: 158px;
+}
+
+.big-mane {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 43px;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px;
+    text-align: center;
+}
+
+.content-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.content-btn button{
+    background: black;
+    border: 1px solid #000;
+    color: #fff;
+    margin-bottom: 100px;
+    border-radius: 50px;
+    padding: 8px 25px;
+    margin-top: 15px;
+    margin: 8px;
+    margin-top: 15px;
+
+}
+
+.content-btn button a{
+    color: #fff;
+
+}
+
+.nike-img {
+
+    padding: 3rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.img-box { 
+    display: flex;
+
+}
+
+.style {
+    margin-left: 3rem;
+    margin-bottom: -30px;
+    font-weight: 500;
+    font-size: 18px;
+}
+footer {
+    background: #000;
+}
+.footer-top {
+    display: flex;
+    margin-top: 150px;;
+    height: 280px;
+    justify-content: space-around;
+    margin: 0 8rem;
+    
+}
+
+.footer-head a{
+    margin-top: 50px;
+    color: #fff;
+    display: flex;
+    flex-flow: nowrap column;
+    font-size: 6px;
+    font-weight: 400;
+
+}
+.footer-head a:nth-child(2), .footer-head a:nth-child(3){
+    margin-top: 8px;
+}
+
+.footer-content a{
+    color: darkgray;
+    display: flex;
+    flex-flow: nowrap column;
+    font-size: 1px;
+    font-weight: 100;
+    margin-top: 8px;
+}
+
+.footer-middle {
+    display: flex;
+    border-top: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+    height: 50px;
+    color: darkgray;
+
+}
+
+.korea {
+    margin-left: 20px;
+    width: 6rem;
+    display: flex;
+    color: #fff;
+    align-self: center;
+
+    font-size: 6px;
+    flex-wrap: nowrap;
+}
+
+.copy {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    align-self: center;
+    margin-right: 5px;
+    font-size: 6px;
+    flex-wrap: nowrap;
+}
+
+.use {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.use a{
+    color: #fff;
+    align-self: center;
+    margin-right: 5px;
+    font-size: 6px;
+}
+
+.footer-bottom {
+    height: 100px;
+    color: #fff;
+}
